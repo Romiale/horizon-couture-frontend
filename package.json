@@ -6,15 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --coverage",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|jsx|ts|tsx|json)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different",
+    "validate": "npm-run-all --parallel check-format lint build",
+    "husky-install": "husky install"
   },
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.43.3"
   },
   "devDependencies": {
-    "eslint": "8.1.0",
-    "eslint-config-next": "11.1.2"
+    "eslint": "^8.1.0",
+    "eslint-config-next": "11.1.2",
+    "prettier": "2.4.1"
   }
 }
