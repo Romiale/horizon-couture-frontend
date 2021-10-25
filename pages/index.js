@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import pub from '../public/assets/images/pub.png'
+import Navigation from '../components/global_components/navigation/Navigation'
+import Title from '../components/global_components/title/Title'
 
 export default function Home() {
   return (
@@ -12,6 +14,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <img src={pub.src} alt="pub" />
+        <div className={styles.main_container}>
+            <Title>TOP CATÉGORIES</Title>
+            <Navigation/>
+        </div>
       </main>
     </div>
   )

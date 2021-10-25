@@ -1,0 +1,13 @@
+@import '../../../styles/mixins/display_mixins.module.scss';
+@import '../../../styles/mixins/mixins_color.module.scss';
+@import '../../../styles/mixins/mixins_typography.module.scss';
+
+.navigation{
+    width: 100%;
+    padding: 1.5rem;
+    @include d-flex-row-between;
+    @include paragraphe;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.63);
+    box-shadow: 2px 2px 10px rgba(196, 196, 196, 0.35);
+}
