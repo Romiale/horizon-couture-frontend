@@ -14,11 +14,21 @@
             width: 100%
         }
     }
-    .group_color{
+    .group_notation{
+        @include d-flex-row-between;
         margin: 2% 0;
-        display: flex;
-     
+        .group_color{
+            margin: 2% 0;
+            display: flex;
+            width: 55%;
+        }
+        .notations{
+            @include d-flex-row-between;
+            align-items: center;
+            width: 40%
+        }
     }
+
     p{
         @include paragraphe;
         font-style: normal;

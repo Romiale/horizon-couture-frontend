@@ -5,6 +5,7 @@ import Navigation from '../components/global_components/navigation/Navigation'
 import Title from '../components/global_components/title/Title'
 import Button from '../components/global_components/button/Button'
 import CardArticle from '../components/global_components/card-article/CardArticle'
+import pubMod from '../public/assets/images/pubMod.png'
 
 export default function Home() {
   return (
@@ -38,7 +39,22 @@ export default function Home() {
                   </div>
               </div>
             </div>
+            <Title>TOP DES PRODUITS LES PLUS NOTÉS</Title>
             <div className={styles.card_group}>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+            </div>
+            <div className={styles.pup}>
+              <img src={pubMod.src} alt="pup" />
+            </div>
+            <Title>NOUVELLES ARRIVAGES</Title>
+             <div className={styles.card_group}>
               <CardArticle/>
               <CardArticle/>
               <CardArticle/>

@@ -5,7 +5,7 @@ function ColorPoint({color}) {
       const style = {
         height: '.8rem',
         width: '.8rem',
-        marginRight:'1.5%',
+        marginRight:'7%',
         borderRadius:'50%',
         backgroundColor: color,
       }
