@@ -1,0 +1,39 @@
+@import '../../../styles/mixins/display_mixins.module.scss';
+@import '../../../styles/mixins/mixins_color.module.scss';
+@import '../../../styles/mixins/mixins_typography.module.scss';
+
+.card_article{
+    width: 23.5%;
+    height:auto;
+    margin: 1rem 0;
+    .card_image{
+        width: 100%;
+        height: 12rem;
+        img{
+            height: 100%;
+            width: 100%
+        }
+    }
+    .group_color{
+        margin: 2% 0;
+        display: flex;
+     
+    }
+    p{
+        @include paragraphe;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.71);
+        margin: unset;
+    }
+    span{
+        @include title;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: #000000;
+
+    }
+}

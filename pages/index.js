@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.scss'
 import pub from '../public/assets/images/pub.png'
 import Navigation from '../components/global_components/navigation/Navigation'
 import Title from '../components/global_components/title/Title'
+import Button from '../components/global_components/button/Button'
+import CardArticle from '../components/global_components/card-article/CardArticle'
 
 export default function Home() {
   return (
@@ -16,7 +18,36 @@ export default function Home() {
         <img src={pub.src} alt="pub" />
         <div className={styles.main_container}>
             <Title>TOP CATÉGORIES</Title>
-            <Navigation/>
+            <Navigation />
+            <div className={styles.top_categories}>
+              <div className={styles.first_container}>
+                  <h3>TISSUS POUR FEMMES</h3>
+                  <p>+675 articles</p>
+                  <Button>Découvrez la catégorie</Button>
+              </div>
+              <div className={styles.second_container}>
+                  <div className={styles.man}>
+                  <h3>TISSUS POUR HOMMES</h3>
+                  <Button href={"/#"}>Découvrir</Button>
+                  </div>
+                  <div className={styles.deco_dress}>
+                      <div className={styles.deco}> 
+                      </div>
+                      <div className={styles.dress}>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div className={styles.card_group}>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+              <CardArticle/>
+            </div>
         </div>
       </main>
     </div>
