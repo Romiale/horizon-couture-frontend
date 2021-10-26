@@ -1,0 +1,54 @@
+@import '../../../styles/mixins/display_mixins.module.scss';
+@import '../../../styles/mixins/mixins_color.module.scss';
+@import '../../../styles/mixins/mixins_typography.module.scss';
+
+.footer{
+    width: 100%;
+    height: max-content;
+    padding: 3% 10%;
+    margin-top: 5%;
+    background-color: $gray_color;
+    @include d-flex-row-between;
+    .group_infos{
+        width: 22%;
+        height: max-content;
+        @include d-flex-culumn-between;
+        img{
+           width: 10rem;
+           height: 5rem;
+           margin-bottom: -.5rem;
+        }
+        address,a,p{
+            @include paragraphe;
+            margin: 4% 0;
+            text-decoration: none;
+        }
+        .news_letter{
+            @include d-flex-row-center;
+            height: 2.5rem;
+            margin: 1rem 0;
+            input{
+                width: 77%;
+                height: 100%;
+                border: unset;
+                padding: 5%;
+                &:focus{
+                    outline: unset;
+                }
+            }
+            img{
+                height: 100%;
+                width: 22%;
+                background-color:rgb(177, 177, 177);
+            }
+        }
+        .group_mobile_money{
+            @include d-flex-row-between;
+            img{
+                width: 4rem;
+                height: 3rem;
+                object-fit: scale-down;
+            }
+        }
+    }
+}

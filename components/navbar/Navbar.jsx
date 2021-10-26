@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import logo from "../../public/assets/logos/logo_horizon.svg"
+import logo from "../../public/assets/logos/logo_horizon.png"
 import cart from "../../public/assets/logos/bx_bxs-cart.svg"
 import user from "../../public/assets/logos/carbon_user-avatar.svg"
 import styles from "../navbar/navbar.module.scss"

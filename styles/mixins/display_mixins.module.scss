@@ -5,6 +5,12 @@
     justify-content: center;
     align-content: center;
 }
+@mixin d-flex-culumn-between {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: flex-start;
+}
 
 @mixin d-flex-row-center {
     display: flex;
