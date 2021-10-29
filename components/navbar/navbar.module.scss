@@ -7,6 +7,7 @@
     height: 3rem;
     padding: 2.5rem 10%;
     @include d-flex-row-between;
+    z-index: 99;
     align-items: center;
     background-color: #fff;
     box-shadow:0px 4px 4px rgba(90, 52, 52, 0.09);
