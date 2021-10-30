@@ -6,8 +6,9 @@ import ColorPoint from '../ColorPoint'
 import Star from '../Star'
 
 function CardArticle() {
+  
     return (
-        <Link href="/detail_article/index">
+        <Link href="/detail_article/index" >
             <a className={styles.card_wrapper}>
                 <div className={styles.card_article}>
                     <div className={styles.card_image}>
