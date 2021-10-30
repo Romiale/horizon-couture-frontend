@@ -1,0 +1,102 @@
+@import '../../styles/mixins/display_mixins.module.scss';
+@import '../../styles/mixins/mixins_color.module.scss';
+@import '../../styles/mixins/mixins_typography.module.scss';
+
+.container{
+    width: 100%;
+    padding: 8rem 10% 0 10%;
+    .details_article{
+        width: 100%;
+        height: 27.5rem;
+        margin-bottom: 4rem;
+        @include d-flex-row-between;
+        .article__images{
+            width: 52%;
+            height: 100%;
+            @include d-flex-row-between;
+            .miniatures{
+                height: 100%;
+                width: 15%;
+                @include d-flex-culumn-start;
+                align-items: flex-start;
+                img{
+                    height:4.5rem;
+                    width: 4.5rem;
+                    margin-bottom:.9rem;
+                    object-fit: cover;
+                }
+            }
+            .principal{
+                position: relative;
+                height: 100%;
+                width: 85%;
+                >div{
+                    img{
+                        height: 27.5rem;
+                    }
+                }
+                
+            }
+        }
+        .article__comment{
+            width: 45%;
+            height: 100%;
+            h2{
+                @include title;
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+           
+            >span{
+                @include title;
+                font-weight: 500;
+                cursor: pointer;
+            }
+            >p{
+                @include title;
+            }
+            .quantity{
+                @include d-flex-row-between;
+                align-items: center;
+                span{
+                    @include paragraphe;
+                }
+                input{
+                    width: 5rem;
+                    height: 2.5rem;
+                    border:solid 1px black;
+                    @include title;
+                    font-weight: 500;
+                    color: black;
+                    padding: 2%;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+            .article__comment__title{
+                @include paragraphe;
+            }
+            .cart_logo{
+                width: 2rem;
+                height: 2rem;
+                margin-left: 1rem;
+            }
+            .group_color{
+                margin: 2rem 0;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                >div{
+                    margin-right: 1.5rem;
+                }
+            }
+        }
+    }
+    .group_article{
+        width: 100%;
+        @include d-flex-row-between;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}

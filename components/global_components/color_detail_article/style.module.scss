@@ -1,0 +1,15 @@
+@import '../../../styles/mixins/display_mixins.module.scss';
+
+.colorArticleDetail{
+    width: max-content;
+    height: max-content;
+    @include d-flex-culumn-center;
+    justify-content: center;
+    input{
+        background-color: rgb(216, 216, 216);
+        margin: .5rem auto;
+        height: 1rem;
+        width: 1rem;
+    }
+   
+}

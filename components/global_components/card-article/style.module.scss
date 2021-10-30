@@ -1,11 +1,13 @@
 @import '../../../styles/mixins/display_mixins.module.scss';
 @import '../../../styles/mixins/mixins_color.module.scss';
 @import '../../../styles/mixins/mixins_typography.module.scss';
-
+.card_wrapper{
+width: 23.5%;
+height:auto;
+margin: 0 0 2rem 0;
 .card_article{
-    width: 23.5%;
-    height:auto;
-    margin: 1rem 0;
+    height: 100%;
+    width: 100%;
     .card_image{
         width: 100%;
         height: 12rem;
@@ -21,6 +23,9 @@
             margin: 2% 0;
             display: flex;
             width: 55%;
+            div{
+                margin-right: 7%;
+            }
         }
         .notations{
             @include d-flex-row-between;
@@ -46,4 +51,5 @@
         color: #000000;
 
     }
+}
 }

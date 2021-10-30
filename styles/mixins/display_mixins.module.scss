@@ -12,6 +12,12 @@
     justify-content:space-between;
     align-content: flex-start;
 }
+@mixin d-flex-culumn-start {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: center;
+}
 
 @mixin d-flex-row-center {
     display: flex;

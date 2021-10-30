@@ -93,7 +93,7 @@ export default function Home() {
                    />
             </div>
             <Title>NOUVELLES ARRIVAGES</Title>
-             <div className={styles.card_group}>
+            <div className={styles.card_group}>
               <CardArticle/>
               <CardArticle/>
               <CardArticle/>

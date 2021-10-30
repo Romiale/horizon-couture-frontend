@@ -1,11 +1,10 @@
 import React from 'react'
 
-function ColorPoint({color}) {
+function ColorPoint({color,height,width}) {
 
       const style = {
-        height: '.8rem',
-        width: '.8rem',
-        marginRight:'7%',
+        height: height,
+        width: width,
         borderRadius:'50%',
         backgroundColor: color,
       }
