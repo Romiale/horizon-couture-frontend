@@ -2,7 +2,7 @@
 
 .categorie_cards{
     width: 100%;
-    padding: 5% 10%;
+    padding: 5% 10% 0 10%;
     .group_card{
         @include d-flex-row-between;
         flex-wrap: wrap;

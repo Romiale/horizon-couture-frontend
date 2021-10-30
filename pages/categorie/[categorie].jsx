@@ -6,6 +6,11 @@ import Title from '../../components/global_components/title/Title'
 import CardArticle from '../../components/global_components/card-article/CardArticle'
 import CardPromotion from '../../components/global_components/card_promotion/CardPromotion'
 import styles from '../categorie/style.module.scss'
+import image1 from '../../public/assets/images/man.png'
+import image2 from '../../public/assets/images/women.png'
+import image3 from '../../public/assets/images/WHITE_homme-africain-vetements-de-mode-t-shirt_variants-0-300x300.jpeg'
+import image4 from '../../public/assets/images/index.jpeg'
+
 function Categorie() {
 
     const responsive = {
@@ -14,19 +19,18 @@ function Categorie() {
     1024: { items: 4 },
     };
      const items = [
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>,
-    <CardPromotion/>
+    <CardPromotion image={image1} title="fashion pour homme"/>,
+    <CardPromotion image={image2} title="prête pour la soirée ?"/>,
+    <CardPromotion image={image3} title="afrika fashion man"/>,
+    <CardPromotion image={image4} title="fashion pour femme"/>,
+    <CardPromotion image={image1} title="fashion pour homme"/>,
+    <CardPromotion image={image2} title="prête pour la soirée ?"/>,
+    <CardPromotion image={image3} title="afrika fashion man"/>,
+    <CardPromotion image={image4} title="fashion pour femme" />,
+    <CardPromotion image={image1} title="fashion pour homme"/>,
+    <CardPromotion image={image2} title="prête pour la soirée ?"/>,
+    <CardPromotion image={image3} title="afrika fashion man"/>,
+    <CardPromotion image={image4} title="fashion pour femme"/>,
   ];
     return (
         <div>
