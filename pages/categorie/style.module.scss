@@ -1,0 +1,10 @@
+@import '../../styles/mixins/display_mixins.module.scss';
+
+.categorie_cards{
+    width: 100%;
+    padding: 5% 10%;
+    .group_card{
+        @include d-flex-row-between;
+        flex-wrap: wrap;
+    }
+}
