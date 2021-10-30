@@ -18,8 +18,8 @@ function Navigation() {
             <Link href="/categorie/accessoirs">
                 <a>Accessoirs</a>
             </Link>
-            <Link href="/categorie/Tissus">
-                <a>Tissus</a>
+            <Link href="/categorie/décoration">
+                <a>Décoration</a>
             </Link>
             <Link href="/categorie/créations">
                 <a>Créations</a>

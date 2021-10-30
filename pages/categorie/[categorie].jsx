@@ -53,6 +53,7 @@ function Categorie() {
                     <CardArticle/>
                     <CardArticle/>
                 </div>
+                <Title color={"#DA1E1E"}>TOP PROMO</Title>
                  <AliceCarousel
                 mouseTracking
                 items={items}

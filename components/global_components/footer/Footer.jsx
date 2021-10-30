@@ -26,19 +26,19 @@ function Footer() {
             </div>
             <div className={styles.group_infos}>
                 <Title>MARKET</Title>
-                <Link href="tel:+243822332932">
+                <Link href="/categorie/tissus">
                     <a>Tissus</a>
                 </Link>
-                <Link href="tel:+243822332932">
+                <Link href="/categorie/garnitures">
                     <a>Garnitures</a>
                 </Link>
-                <Link href="tel:+243822332932">
+                <Link href="/categorie/accessoirs">
                     <a>Accessoirs</a>
                 </Link>
-                <Link href="tel:+243822332932">
+                <Link href="/categorie/buttons">
                     <a>Bouttons</a>
                 </Link>
-                <Link href="tel:+243822332932">
+                <Link href="/categorie/créations">
                     <a>Créations</a>
                 </Link>
                 <Link href="tel:+243822332932">
