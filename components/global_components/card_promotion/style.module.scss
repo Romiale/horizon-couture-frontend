@@ -21,10 +21,9 @@
         height: 80%;
         object-fit: cover;
         background-color: #fff;
-       
     }
     p{
-        font-family: 'Montserrat',sans-serif;
+        @include title;
         font-weight: normal;
         text-transform: uppercase;
         font-size: 1.2rem;

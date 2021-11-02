@@ -8,6 +8,13 @@ margin: 0 0 2rem 0;
 .card_article{
     height: 100%;
     width: 100%;
+        &:hover{
+        .card_image{
+            img{
+                transform: scale(1.02)
+            }
+        }
+    }
     .card_image{
         width: 100%;
         height: 12rem;
@@ -16,9 +23,6 @@ margin: 0 0 2rem 0;
             height: 100%;
             width: 100%;
             transition: .3s ease-in-out;
-            &:hover{
-                transform: scale(1.02)
-            }
         }
     }
     .group_notation{

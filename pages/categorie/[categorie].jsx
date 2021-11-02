@@ -6,7 +6,7 @@ import Title from '../../components/global_components/title/Title'
 import CardArticle from '../../components/global_components/card-article/CardArticle'
 import CardPromotion from '../../components/global_components/card_promotion/CardPromotion'
 import styles from '../categorie/style.module.scss'
-import image1 from '../../public/assets/images/man.png'
+import image1 from '../../public/assets/images/blanchiment-dents-sourire-homme.jpg'
 import image2 from '../../public/assets/images/women.png'
 import image3 from '../../public/assets/images/WHITE_homme-africain-vetements-de-mode-t-shirt_variants-0-300x300.jpeg'
 import image4 from '../../public/assets/images/index.jpeg'
@@ -53,7 +53,7 @@ function Categorie() {
                     <CardArticle/>
                     <CardArticle/>
                 </div>
-                <Title color={"#DA1E1E"}>TOP PROMO</Title>
+                <Title color={"#DA1E1E"}>TOP PROMO / NE RATEZ RIEN !</Title>
                  <AliceCarousel
                 mouseTracking
                 items={items}
